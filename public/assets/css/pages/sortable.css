@@ -1,0 +1,31 @@
+.grid1{
+    padding:50px 0px;
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: center;
+    width: 100%;
+    cursor: move;
+    border-radius:5px;
+}
+#sortable2 li,#sortable3 li{
+    padding:5px;
+    padding-left: 15px;
+    background-color: #fafafa;
+    border:1px solid #ccc;
+    width: 100%;
+    cursor: move;
+    margin-top: 10px;
+    list-style: none;
+    border-radius: 4px;
+}
+ul#sortable3,ul#sortable2{
+    padding-left: 0px;
+    list-style: none;
+    min-height: 60px;
+
+}
+li.highlight{
+    background-color: #F89A14!important;
+}

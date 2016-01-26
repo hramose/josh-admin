@@ -1,0 +1,21 @@
+.symbol {
+  display: inline-block;
+  border-radius: 50%;
+  border: 5px double white;
+  width: 30px;
+  height: 30px;
+}
+
+.symbol-empty {
+  background-color: #ccc;
+}
+
+.symbol-filled {
+  background-color: #029ace;
+}
+.fa{
+        color: #029ace;
+    }
+.rating-symbol{
+	padding:2px;
+}

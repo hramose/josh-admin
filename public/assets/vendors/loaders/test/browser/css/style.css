@@ -1,0 +1,81 @@
+body {
+    background-color: #000;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../images/LittleSnowHills.jpg);
+    background-position: 50% 50%;
+    background-attachment: fixed;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+h1 {
+
+}
+
+p {
+	line-height: 1.4em;
+}
+
+body #qLoverlay {
+    background-color: #111;
+    position: fixed;
+    z-index: 666999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body #content {
+    width: 800px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+body #content ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+body #content ul li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    text-align: center;
+}
+
+body #content ul li.baizley {
+    background: url(../images/johnbaizley_Tat.jpg);
+}
+
+body #content ul li.gradient {
+    padding: 20px;
+    width: 360px;
+    height: 360px;
+
+    background: #efc5ca; /* Old browsers */
+    background: -moz-linear-gradient(top, #efc5ca 0%, #ef2f43 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#efc5ca), color-stop(100%,#ef2f43)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #efc5ca 0%,#ef2f43 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #efc5ca 0%,#ef2f43 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #efc5ca 0%,#ef2f43 100%); /* IE10+ */
+    background: linear-gradient(top, #efc5ca 0%,#ef2f43 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc5ca', endColorstr='#ef2f43',GradientType=0 ); /* IE6-9 */
+}
+
+body #mocha {
+    background: white;
+    position: relative;
+    margin: 0;
+    padding: 60px 50px;
+}
+
+body #mocha-stats {
+    position: absolute;
+}
